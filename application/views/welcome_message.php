@@ -113,11 +113,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </table>
     <div class="row">
         <div class="col-md-3 pl-5 pb-3">
-            <button type="button" class="btn btn-outline-success">Success</button>
-            <button type="button" class="btn btn-outline-danger">Danger</button>
-            <button type="button" class="btn btn-outline-warning">Warning</button>
+            <a href="<?= base_url("success"); ?>" type="button" class="btn btn-outline-success">Success</a>
+            <a href="<?= base_url("error"); ?>" type="button" class="btn btn-outline-danger">Error</a>
+            <a href="<?= base_url("warning"); ?>" type="button" class="btn btn-outline-warning">Warning</a>
         </div>
     </div>
 </div>
+<?php $this->load->view("includes/alert"); ?>
 </body>
 </html>
