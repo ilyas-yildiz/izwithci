@@ -1,5 +1,6 @@
 # izwithci
 A demo of iziToast running in Codeigniter.
+
 ROAD MAP
 
 1- We included the iztoast and bootstrap cdns in the view file (welcome_message.php)
