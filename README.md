@@ -1,9 +1,13 @@
 # izwithci
 A demo of iziToast running in Codeigniter.
-ROAD MAP		
+ROAD MAP
+
 1- We included the iztoast and bootstrap cdns in the view file (welcome_message.php)
+
 2- We created the alert.php file and included it in the view file.
+
 3- We added a table from bootstrap's website and 3 buttons below it to the view page.
+
 4- We turned these buttons into a tag and added an href. We directed these hrefs to the relevant method in the Welcome controller using route.
 5- We created 3 methods in the welcome controller. with the names success, error and warning.
 6- In these controllers, we have created a flashdata named alert. Flash Data is actually a session.
