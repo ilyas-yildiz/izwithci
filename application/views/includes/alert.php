@@ -14,7 +14,7 @@ if($alert){
             })
         </script>
 
-    <?php } else { ?>
+    <?php } elseif($alert["type"] === "error") { ?>
 
         <script>
             iziToast.error({
@@ -24,5 +24,12 @@ if($alert){
             })
         </script>
 
-    <?php }
-} ?>
+    <?php } else{?>
+        <script>
+            iziToast.warning({
+                title: '<?php echo $alert["title"]; ?>',
+                message: '<?php echo $alert["text"]; ?>',
+                position : "topCenter"
+            })
+        </script>
+    <?php } } ?>
