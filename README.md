@@ -18,4 +18,3 @@ ROAD MAP
 7- We added an array to this session. We sent the data in the format that iziToast wanted inside the Array.
 
 8- When you press any button, that button will take us to the route. route will send us to the method in the corresponding controller. Finally, a flashdata will be created in the controller and we will return to our homepage with redirect. alert.php that we include on the homepage will capture this flashdata. session that will read the array of which button is pressed.
-
