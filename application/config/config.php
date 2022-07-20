@@ -522,5 +522,3 @@ $config['rewrite_short_tags'] = FALSE;
 */
 $config['proxy_ips'] = '';
 
-$config['google_key']      = '6Lf8dM8dAAAAAGNog7mYXeYogm0mZ-BG4ZsiiHnx';
-$config['google_secret']   = '6Lf8dM8dAAAAADS_ZkeYujAn9sIrXfN6nFH_pRaE';
